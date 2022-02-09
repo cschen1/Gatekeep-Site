@@ -1,9 +1,11 @@
 html,
 body {
-  padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 a {
@@ -13,4 +15,64 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.store_container {
+  display: absolute;
+}
+
+table {
+  margin: auto;
+  bottom: 0;
+  border: solid red 1px
+}
+
+table a {
+  color: red;
+  margin: 200px;
+  border: solid red 1px
+}
+
+.center {
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  margin: auto;
+}
+
+p {
+  display: block;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+#username_title {
+  border: solid red 1px;
+}
+
+.login_button {
+  border: solid red 1px;
+}
+
+.register_button {
+  margin-right: 15%;
+  border: solid red 1px;
+}
+
+.green_jeans {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item_icon_image {
+  width: 170px;
+  height: 170px;
+  margin: 15px;
+  border: solid red 1px;
+
 }
